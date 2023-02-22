@@ -1,0 +1,1238 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl" id="top">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
+      integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N"
+      crossorigin="anonymous"
+    />
+
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>سیپا - سامانه یکپارچه پرداخت های ارزی</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div
+        class="container-fluid container-xxl d-flex align-items-center h-100 header__inner"
+      >
+        <!-- Logo -->
+        <figure class="col-6 col-lg-2 m-0 header__logo">
+          <a href="index.html">
+            <img src="assets/img/logo.svg" alt="لوگوی سیپا"
+          /></a>
+        </figure>
+
+        <!-- Hamburger toggle -->
+        <div class="col-6 d-flex d-lg-none justify-content-end header__toggle">
+          <img src="assets/img/hamburger-icon.svg" alt="ایکون منو" />
+        </div>
+
+        <!-- Navigation -->
+        <nav
+          class="col-lg-7 align-self-lg-stretch d-none d-lg-flex align-items-center header__nav"
+        >
+          <ul class="d-flex align-items-center justify-content-between">
+            <li>
+              <a href="#">خانه</a>
+            </li>
+            <li>
+              <a href="services.html">خدمات ما</a>
+            </li>
+            <li>
+              <a href="/">نمونه کارها</a>
+            </li>
+            <li>
+              <a href="/">درباره ما</a>
+            </li>
+            <li>
+              <a href="contact.html">تماس با ما</a>
+            </li>
+            <li>
+              <a href="/">بلاگ</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- CTA button -->
+        <div class="cta col-3 d-none d-lg-flex justify-content-end">
+          <button class="button--cta">همین الان ثبت نام کن</button>
+        </div>
+      </div>
+
+      <!-- Hamburger menu -->
+      <div
+        class="col-8 d-flex d-lg-none flex-column justify-content-between hamburger__menu"
+      >
+        <ul class="d-flex flex-column">
+          <li>
+            <a href="index.html">خانه</a>
+          </li>
+          <li>
+            <a href="services.html">خدمات ما</a>
+          </li>
+          <li>
+            <a href="#">نمونه کارها</a>
+          </li>
+          <li>
+            <a href="#">درباره ما</a>
+          </li>
+          <li>
+            <a href="contact.html">تماس با ما</a>
+          </li>
+          <li>
+            <a href="#">بلاگ</a>
+          </li>
+        </ul>
+
+        <div class="cta d-lg-none">
+          <button class="button--cta">همین الان ثبت نام کن</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="container-fluid container-xxl home">
+      <!-- -----hero starts here----- -->
+      <section class="hero">
+        <div class="row justify-content-between">
+          <div
+            class="col-12 col-lg-5 order-1 order-lg-2 d-flex flex-column align-items-center align-items-lg-start justify-content-center hero__text"
+            data-aos="fade"
+            data-aos-delay="50"
+            data-aos-duration="900"
+            data-aos-easing="ease-in"
+          >
+            <div
+              class="d-flex flex-column align-items-center align-items-lg-start text-center text-lg-start mt-auto"
+            >
+              <h1 class="heading-primary">
+                آژانس <span class="highlight--primary">دیجیتال</span> مارکتینگ
+              </h1>
+              <p class="paragraph--lg paragraph--dark">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است.
+              </p>
+              <button class="button--cta">سیپا در یک نگاه</button>
+            </div>
+
+            <button class="align-self-lg-end mt-lg-auto pb-4 button--play">
+              <a href="#">
+                <figure>
+                  <img src="assets/img/play-btn-icon.svg" alt="آیکون پخش" />
+                </figure>
+                <span>مشاهده ویدیو</span>
+              </a>
+            </button>
+          </div>
+
+          <figure
+            class="col-12 col-lg-6 order-2 order-lg-1 hero__image"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="900"
+          >
+            <img class="d-lg-none" src="assets/img/wave.svg" alt="" />
+
+            <img
+              src="assets/img/billy-home-hero.png"
+              alt="بیلی و لپ‌تاپ"
+              data-aos="slide-up"
+              data-aos-delay="1000"
+              data-aos-duration="1000"
+            />
+            <img
+              src="assets/img/orange-quarter.svg"
+              alt=""
+              data-aos="fade"
+              data-aos-delay="10"
+              data-aos-duration="900"
+              data-aos-easing="ease-in"
+            />
+
+            <button
+              data-aos="fade"
+              data-aos-delay="1300"
+              data-aos-duration="400"
+              data-aos-easing="ease-out"
+              data-aos-anchor-placement="top-bottom"
+            >
+              Pool<img src="assets/img/pool.svg" alt="" />
+            </button>
+            <button
+              data-aos="fade"
+              data-aos-delay="1300"
+              data-aos-duration="400"
+              data-aos-easing="ease-out"
+              data-aos-anchor-placement="top-bottom"
+            >
+              Stake<img src="assets/img/stake.svg" alt="" />
+            </button>
+            <button
+              data-aos="fade"
+              data-aos-delay="1300"
+              data-aos-duration="400"
+              data-aos-easing="ease-out"
+              data-aos-anchor-placement="top-bottom"
+            >
+              Farm<img src="assets/img/farm.svg" alt="" />
+            </button>
+          </figure>
+        </div>
+      </section>
+      <!-- -----hero ends here----- -->
+
+      <!-- ############################################################# -->
+
+      <!-- -----tokens starts here----- -->
+      <section class="tokens">
+        <div
+          class="row justify-content-between tokens__top"
+          data-aos="fade-up"
+          data-aos-duration="2500"
+        >
+          <figure class="col-12 col-lg-7 order-1 order-lg-2 tokens__image">
+            <img src="assets/img/token-intro.png" alt="سکه و طلا" />
+          </figure>
+
+          <div
+            class="col-12 col-lg-5 order-2 order-lg-1 d-flex flex-column tokens__text"
+          >
+            <h2 class="heading-secondary">معرفی توکن</h2>
+            <p class="paragraph--light paragraph--md">
+              کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان
+              جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای
+              طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان
+              فارسی ایجاد کرد.کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده
+              شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت
+              بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ
+              پیشرو در زبان فارسی ایجاد کرد.کتابهای زیادی در شصت و سه درصد
+              گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با
+              نرم افزارها شناخت بیشتری را برای طراحان رایانه ای
+            </p>
+
+            <div
+              class="d-flex align-items-center justify-content-lg-between buttons-container"
+            >
+              <button type="submit" class="button--cta">
+                <img src="assets/img/paper-icon.svg" alt="ایکون ارسال" />وایت
+                پیپر
+              </button>
+              <button class="align-self-lg-end button--play">
+                <a href="#">
+                  <figure>
+                    <img src="assets/img/play-btn-icon.svg" alt="آیکون پخش" />
+                  </figure>
+                  <span>ویدیوی معرفی توکن</span>
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="row justify-content-between align-items-center pe-0"
+          data-aos="fade-down"
+          data-aos-duration="2000"
+        >
+          <h2
+            class="col-6 col-md-4 col-lg-3 text-align-right mb-0 heading-secondary"
+          >
+            کاربرد های توکن
+          </h2>
+
+          <div class="col-6 col-md-8 col-lg-9 tokens__slider">
+            <div class="swiper tokenSwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide token">
+                  <div class="token__icon">
+                    <img src="assets/img/token-euro.svg" alt="یورو" />
+                  </div>
+                  ییلد فارمینگ
+                </div>
+                <div class="swiper-slide token">
+                  <div class="token__icon">
+                    <img src="assets/img/token-wallet.svg" alt="کیف پول" />
+                  </div>
+                  پرداخت بین الملل
+                </div>
+                <div class="swiper-slide token">
+                  <div class="token__icon">
+                    <img src="assets/img/token-chat.svg" alt="پیام" />
+                  </div>
+                  کاربرد های توکن
+                </div>
+                <div class="swiper-slide token">
+                  <div class="token__icon">
+                    <img src="assets/img/token-dollar.svg" alt="دلار" />
+                  </div>
+                  خرید از فروشگاه های بین المللی
+                </div>
+                <div class="swiper-slide token">
+                  <div class="token__icon">
+                    <img src="assets/img/token-euro.svg" alt="یورو" />
+                  </div>
+                  ییلد فارمینگ
+                </div>
+                <div class="swiper-slide token">
+                  <div class="token__icon">
+                    <img src="assets/img/token-euro.svg" alt="یورو" />
+                  </div>
+                  ییلد فارمینگ
+                </div>
+                <div class="swiper-slide token">
+                  <div class="token__icon">
+                    <img src="assets/img/token-euro.svg" alt="یورو" />
+                  </div>
+                  ییلد فارمینگ
+                </div>
+              </div>
+            </div>
+
+            <div class="tokenSwiper__nav">
+              <button class="tokenSwiper-button-prev">
+                <img src="assets/img/long-swiper-arrow.svg" alt="فلش قبلی" />
+              </button>
+              <button class="tokenSwiper-button-next">
+                <img src="assets/img/long-swiper-arrow.svg" alt="فلش بعدی" />
+              </button>
+            </div>
+            <div class="tokenSwiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <!-- -----tokens ends here----- -->
+
+      <!-- ############################################################# -->
+
+      <!-- -----funds start here----- -->
+      <section class="funds">
+        <div
+          class="row align-items-lg-center justify-content-lg-start"
+          data-aos="fade-up"
+          data-aos-duration="2500"
+        >
+          <figure class="col-12 col-lg-6 funds__image">
+            <img src="assets/img/fund.png" alt="گاوصندوق و سکه" />
+          </figure>
+
+          <div
+            class="col-12 col-lg-5 d-flex flex-column align-items-start funds__text"
+          >
+            <h2 class="heading-secondary">معرفی صندوق سرمایه گذاری</h2>
+            <p class="paragraph--md paragraph--light">
+              کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان
+              جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای
+              طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان
+              فارسی ایجاد کرد.کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده
+              شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت
+              بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ
+              پیشرو در زبان فارسی ایجاد کرد.کتابهای زیادی در شصت و سه درصد
+              گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با
+              نرم افزارها شناخت بیشتری را برای طراحان رایانه ای
+            </p>
+            <button class="button--cta">مشاوره رایگان</button>
+          </div>
+        </div>
+
+        <div
+          class="row align-items-center justify-content-center funds__slider overflow-hidden"
+          data-aos="fade"
+          data-aos-delay="100"
+          data-aos-duration="800"
+        >
+          <div class="swiper fundSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="fund">
+                  <figure class="fund__image">
+                    <img src="assets/img/fund-home.png" alt="خانه" />
+                  </figure>
+                  <div class="fund__text">
+                    <h3 class="heading-tertiary">
+                      صندوق سرمایه گذاری املاک و مستغلات سیپا
+                    </h3>
+                    <p class="paragraph--light">
+                      کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت
+                      فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت
+                    </p>
+                    <a href="#" class="more"
+                      >بیشتر<img
+                        src="assets/img/funds-more-arrow.svg"
+                        alt="فلش سمت چپ"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="fund">
+                  <figure class="fund__image">
+                    <img src="assets/img/fund-dollar.png" alt="دلار" />
+                  </figure>
+                  <div class="fund__text">
+                    <h3 class="heading-tertiary">
+                      صندوق سرمایه گذاری درآمد ثابت
+                    </h3>
+                    <p class="paragraph--light">
+                      کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت
+                      فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت
+                    </p>
+                    <a href="#" class="more"
+                      >بیشتر<img
+                        src="assets/img/funds-more-arrow.svg"
+                        alt="فلش سمت چپ"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="fund">
+                  <figure class="fund__image">
+                    <img src="assets/img/fund-bitcoin.png" alt="بیت‌کوین" />
+                  </figure>
+                  <div class="fund__text">
+                    <h3 class="heading-tertiary">
+                      صندوق سرمایه گذاری ارز دیجیتال سیپا
+                    </h3>
+                    <p class="paragraph--light">
+                      کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت
+                      فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت
+                    </p>
+                    <a href="#" class="more"
+                      >بیشتر<img
+                        src="assets/img/funds-more-arrow.svg"
+                        alt="فلش سمت چپ"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="fund">
+                  <figure class="fund__image">
+                    <img src="assets/img/fund-home.png" alt="خانه" />
+                  </figure>
+                  <div class="fund__text">
+                    <h3 class="heading-tertiary">
+                      صندوق سرمایه گذاری املاک و مستغلات سیپا
+                    </h3>
+                    <p class="paragraph--light">
+                      کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت
+                      فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت
+                    </p>
+                    <a href="#" class="more"
+                      >بیشتر<img
+                        src="assets/img/funds-more-arrow.svg"
+                        alt="فلش سمت چپ"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="fund">
+                  <figure class="fund__image">
+                    <img src="assets/img/fund-dollar.png" alt="دلار" />
+                  </figure>
+                  <div class="fund__text">
+                    <h3 class="heading-tertiary">
+                      صندوق سرمایه گذاری درآمد ثابت
+                    </h3>
+                    <p class="paragraph--light">
+                      کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت
+                      فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت
+                    </p>
+                    <a href="#" class="more"
+                      >بیشتر<img
+                        src="assets/img/funds-more-arrow.svg"
+                        alt="فلش سمت چپ"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="fund">
+                  <figure class="fund__image">
+                    <img src="assets/img/fund-bitcoin.png" alt="بیت‌کوین" />
+                  </figure>
+                  <div class="fund__text">
+                    <h3 class="heading-tertiary">
+                      صندوق سرمایه گذاری ارز دیجیتال سیپا
+                    </h3>
+                    <p class="paragraph--light">
+                      کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت
+                      فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت
+                    </p>
+                    <a href="#" class="more"
+                      >بیشتر<img
+                        src="assets/img/funds-more-arrow.svg"
+                        alt="فلش سمت چپ"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="fund">
+                  <figure class="fund__image">
+                    <img src="assets/img/fund-home.png" alt="خانه" />
+                  </figure>
+                  <div class="fund__text">
+                    <h3 class="heading-tertiary">
+                      صندوق سرمایه گذاری املاک و مستغلات سیپا
+                    </h3>
+                    <p class="paragraph--light">
+                      کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت
+                      فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت
+                    </p>
+                    <a href="#" class="more"
+                      >بیشتر<img
+                        src="assets/img/funds-more-arrow.svg"
+                        alt="فلش سمت چپ"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="fund">
+                  <figure class="fund__image">
+                    <img src="assets/img/fund-dollar.png" alt="دلار" />
+                  </figure>
+                  <div class="fund__text">
+                    <h3 class="heading-tertiary">
+                      صندوق سرمایه گذاری درآمد ثابت
+                    </h3>
+                    <p class="paragraph--light">
+                      کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت
+                      فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت
+                    </p>
+                    <a href="#" class="more"
+                      >بیشتر<img
+                        src="assets/img/funds-more-arrow.svg"
+                        alt="فلش سمت چپ"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="fund">
+                  <figure class="fund__image">
+                    <img src="assets/img/fund-bitcoin.png" alt="بیت‌کوین" />
+                  </figure>
+                  <div class="fund__text">
+                    <h3 class="heading-tertiary">
+                      صندوق سرمایه گذاری ارز دیجیتال سیپا
+                    </h3>
+                    <p class="paragraph--light">
+                      کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت
+                      فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت
+                    </p>
+                    <a href="#" class="more"
+                      >بیشتر<img
+                        src="assets/img/funds-more-arrow.svg"
+                        alt="فلش سمت چپ"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <!-- -----funds ends here----- -->
+
+      <!-- ############################################################# -->
+
+      <!-- -----application starts here----- -->
+      <section class="application">
+        <div
+          class="row justify-content-between application__top"
+          data-aos="fade-up"
+          data-aos-duration="2500"
+        >
+          <figure
+            class="col-12 col-md-6 col-lg-8 order-1 order-md-2 application__image"
+          >
+            <img
+              src="assets/img/application-mobiles.png"
+              alt="اپلیکیشن سیپا در موبایل"
+            />
+          </figure>
+          <div
+            class="col-12 col-md-6 col-lg-4 order-2 order-md-1 d-flex flex-column application__text"
+          >
+            <h2 class="heading-secondary">معرفی اپلیکیشن</h2>
+            <p class="paragraph--light paragraph--md">
+              کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان
+              جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای
+              طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان
+              فارسی ایجاد کرد.
+            </p>
+            <div class="d-flex justify-content-center buttons-container">
+              <a href="#">
+                <img
+                  src="assets/img/app-store-logo.png"
+                  alt="لوگوی اپل استور"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="assets/img/google-play-logo.png"
+                  alt="لوگوی گوگل پلی"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex flex-lg-column application__features">
+          <img
+            class="d-lg-none mobile-img"
+            src="assets/img/red-line-mobile.svg"
+            alt=""
+          />
+          <img
+            class="d-none d-lg-block desktop-img"
+            src="assets/img/red-line-desktop.svg"
+            alt=""
+          />
+
+          <div class="d-flex justify-content-center features-container">
+            <div class="row flex-lg-column features">
+              <div class="col-12 feature" data-number="1" data-aos="zoom-in">
+                <h3 class="heading-tertiary">پرداخت دانشجویی</h3>
+                <p class="paragraph--sm paragraph--light">
+                  کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان
+                  جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت
+                </p>
+              </div>
+              <div class="col-12 feature" data-number="2" data-aos="zoom-in">
+                <h3 class="heading-tertiary">پرداخت دانشجویی</h3>
+                <p class="paragraph--sm paragraph--light">
+                  کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان
+                  جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت
+                </p>
+              </div>
+              <div class="col-12 feature" data-number="3" data-aos="zoom-in">
+                <h3 class="heading-tertiary">پرداخت دانشجویی</h3>
+                <p class="paragraph--sm paragraph--light">
+                  کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان
+                  جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- -----application ends here----- -->
+
+      <!-- ############################################################# -->
+
+      <!-- -----articles starts here----- -->
+      <section class="articles">
+        <div class="row align-items-start justify-content-between">
+          <figure
+            class="col-12 col-md-5 align-self-stretch align-self-lg-start articles__image"
+          >
+            <img src="assets/img/articles-yellowbg.png" alt="" class="bg-img" />
+            <img
+              src="assets/img/articles-billy.png"
+              alt="بیلی با لپ‌تاپ روی صندلی قرمز"
+              class="top-img"
+            />
+          </figure>
+
+          <div
+            class="col-12 col-md-6 articles__slider"
+            data-aos="slide-right"
+            data-aos-delay="100"
+            data-aos-duration="800"
+            data-aos-easing="ease-in"
+          >
+            <div class="swiper articleSwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide article">
+                  <div class="article__inner">
+                    <figure class="article__image">
+                      <img
+                        src="assets/img/articles-bitcoin.png"
+                        alt="بیت‌کوین"
+                      />
+                    </figure>
+
+                    <div class="d-flex justify-content-between article__header">
+                      <span class="tag">درامد</span>
+                      <time class="date"
+                        ><img
+                          src="assets/img/calender-icon.svg"
+                          alt="تقویم"
+                        />پنجشنبه 12 فروردین</time
+                      >
+                    </div>
+
+                    <div class="article__body">
+                      <h3 class="heading-tertiary">
+                        صندوق سرمایه گذاری درآمد ثابتصندوق سرمایه گذاری درآمد
+                        ثابت
+                      </h3>
+                      <p class="paragraph--light">
+                        کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت
+                        کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده
+                        شناختکتابهای زیادی در شصت و سه درصد گذشته، حال و آینده
+                        شناخت کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده
+                        شناخت
+                      </p>
+                    </div>
+
+                    <div class="d-flex justify-content-between article__footer">
+                      <div class="author">
+                        <img
+                          src="assets/img/profile.png"
+                          alt="چهره کاربر"
+                        />سینا پناهدار
+                      </div>
+                      <a href="#" class="more"
+                        >بیشتر<img
+                          src="assets/img/articles-more-arrow.svg"
+                          alt="فلش سمت چپ"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide article">
+                  <div class="article__inner">
+                    <figure class="article__image">
+                      <img
+                        src="assets/img/articles-bitcoin.png"
+                        alt="بیت‌کوین"
+                      />
+                    </figure>
+
+                    <div class="d-flex justify-content-between article__header">
+                      <span class="tag">درامد</span>
+                      <time class="date"
+                        ><img
+                          src="assets/img/calender-icon.svg"
+                          alt="تقویم"
+                        />پنجشنبه 12 فروردین</time
+                      >
+                    </div>
+
+                    <div class="article__body">
+                      <h3 class="heading-tertiary">
+                        صندوق سرمایه گذاری درآمد ثابتصندوق سرمایه گذاری درآمد
+                        ثابت
+                      </h3>
+                      <p class="paragraph--light">
+                        کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت
+                        کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده
+                        شناختکتابهای زیادی در شصت و سه درصد گذشته، حال و آینده
+                        شناخت کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده
+                        شناخت
+                      </p>
+                    </div>
+
+                    <div class="d-flex justify-content-between article__footer">
+                      <div class="author">
+                        <img
+                          src="assets/img/profile.png"
+                          alt="چهره کاربر"
+                        />سینا پناهدار
+                      </div>
+                      <a href="#" class="more"
+                        >بیشتر<img
+                          src="assets/img/articles-more-arrow.svg"
+                          alt="فلش سمت چپ"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide article">
+                  <div class="article__inner">
+                    <figure class="article__image">
+                      <img
+                        src="assets/img/articles-bitcoin.png"
+                        alt="بیت‌کوین"
+                      />
+                    </figure>
+
+                    <div class="d-flex justify-content-between article__header">
+                      <span class="tag">درامد</span>
+                      <time class="date"
+                        ><img
+                          src="assets/img/calender-icon.svg"
+                          alt="تقویم"
+                        />پنجشنبه 12 فروردین</time
+                      >
+                    </div>
+
+                    <div class="article__body">
+                      <h3 class="heading-tertiary">
+                        صندوق سرمایه گذاری درآمد ثابتصندوق سرمایه گذاری درآمد
+                        ثابت
+                      </h3>
+                      <p class="paragraph--light">
+                        کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت
+                        کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده
+                        شناختکتابهای زیادی در شصت و سه درصد گذشته، حال و آینده
+                        شناخت کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده
+                        شناخت
+                      </p>
+                    </div>
+
+                    <div class="d-flex justify-content-between article__footer">
+                      <div class="author">
+                        <img
+                          src="assets/img/profile.png"
+                          alt="چهره کاربر"
+                        />سینا پناهدار
+                      </div>
+                      <a href="#" class="more"
+                        >بیشتر<img
+                          src="assets/img/articles-more-arrow.svg"
+                          alt="فلش سمت چپ"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide article">
+                  <div class="article__inner">
+                    <figure class="article__image">
+                      <img
+                        src="assets/img/articles-bitcoin.png"
+                        alt="بیت‌کوین"
+                      />
+                    </figure>
+
+                    <div class="d-flex justify-content-between article__header">
+                      <span class="tag">درامد</span>
+                      <time class="date"
+                        ><img
+                          src="assets/img/calender-icon.svg"
+                          alt="تقویم"
+                        />پنجشنبه 12 فروردین</time
+                      >
+                    </div>
+
+                    <div class="article__body">
+                      <h3 class="heading-tertiary">
+                        صندوق سرمایه گذاری درآمد ثابتصندوق سرمایه گذاری درآمد
+                        ثابت
+                      </h3>
+                      <p class="paragraph--light">
+                        کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت
+                        کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده
+                        شناختکتابهای زیادی در شصت و سه درصد گذشته، حال و آینده
+                        شناخت کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده
+                        شناخت
+                      </p>
+                    </div>
+
+                    <div class="d-flex justify-content-between article__footer">
+                      <div class="author">
+                        <img
+                          src="assets/img/profile.png"
+                          alt="چهره کاربر"
+                        />سینا پناهدار
+                      </div>
+                      <a href="#" class="more"
+                        >بیشتر<img
+                          src="assets/img/articles-more-arrow.svg"
+                          alt="فلش سمت چپ"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="articleSwiper__nav">
+              <button class="articleSwiper-button-prev">
+                <img src="assets/img/long-swiper-arrow.svg" alt="فلش قبلی" />
+              </button>
+              <button class="articleSwiper-button-next">
+                <img src="assets/img/long-swiper-arrow.svg" alt="فلش بعدی" />
+              </button>
+            </div>
+            <div class="articleSwiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <!-- -----articles ends here----- -->
+    </main>
+
+    <footer class="footer footer--2">
+      <div class="container-fluid container-xxl footer__inner">
+        <button
+          class="d-flex align-items-center justify-content-center go-to-top"
+        >
+          <a href="#top"
+            ><img src="assets/img/arrow.svg" alt="فلش سفید به سمت بالا"
+          /></a>
+        </button>
+
+        <figure
+          class="col-12 d-flex align-items-center justify-content-center justify-content-md-start footer__logo"
+        >
+          <img src="assets/img/logo.svg" alt="لوگوی سیپا" />
+        </figure>
+
+        <div class="row footer__content">
+          <div
+            class="row col-12 col-lg-8 justify-content-center justify-content-md-start footer__nav"
+          >
+            <div class="col-6 col-md-4 order-1 order-md-2 footer__list">
+              <h4>کاربرد توکن سیپا</h4>
+              <ul>
+                <li><a href="#">لورم ایپسوم</a></li>
+                <li><a href="#">متن ساختگی</a></li>
+                <li><a href="#">با تولید</a></li>
+                <li><a href="#">سادگی</a></li>
+                <li><a href="#">نامفهوم از</a></li>
+              </ul>
+            </div>
+
+            <div
+              class="col-6 col-md-4 order-2 order-md-3 ps-5 ps-md-0 footer__list"
+            >
+              <h4>درباره ما</h4>
+              <ul>
+                <li><a href="#">لورم ایپسوم</a></li>
+                <li><a href="#">متن ساختگی</a></li>
+                <li><a href="#">با تولید</a></li>
+                <li><a href="#">سادگی</a></li>
+                <li><a href="#">نامفهوم از</a></li>
+              </ul>
+            </div>
+
+            <div
+              class="col-12 col-md-4 order-3 order-md-1 me-auto mt-5 me-md-0 mt-md-0 footer__list"
+            >
+              <h4>آموزش</h4>
+              <ul>
+                <li><a href="#">سیپا چیست؟ </a></li>
+                <li><a href="#">صندوق سرمایه گزاری چیست</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="col-12 col-lg-4 d-flex flex-column justify-content-start gap-4 footer__cta"
+          >
+            <div class="col-12 d-none d-lg-flex flex-column socials">
+              <p class="col-12">همراه ما باشید!</p>
+              <ul class="col-12 d-flex justify-content-start">
+                <li>
+                  <a href="https://www.twitch.com">
+                    <svg
+                      width="28"
+                      height="28"
+                      viewBox="0 0 28 28"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M23.7 13L19.7 17H15.7L12.2 20.5V17H7.69995V2H23.7V13Z"
+                        fill="black"
+                      />
+                      <path
+                        class="color-change"
+                        d="M6.69995 0L1.69995 5V23H7.69995V28L12.7 23H16.6999L25.6999 14V0H6.69995ZM23.6999 13L19.6999 17H15.6999L12.2 20.5V17H7.69995V2H23.6999V13Z"
+                        fill="white"
+                      />
+                      <path
+                        class="color-change"
+                        d="M20.7 5.5H18.7V11.5H20.7V5.5Z"
+                        fill="white"
+                      />
+                      <path
+                        class="color-change"
+                        d="M15.2 5.5H13.2V11.5H15.2V5.5Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.telegram.com">
+                    <svg
+                      width="28"
+                      height="23"
+                      viewBox="0 0 28 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        class="color-change"
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M2.37654 10.1755C9.61161 7.02334 14.4361 4.94522 16.8501 3.94117C23.7424 1.07442 25.1746 0.576434 26.108 0.55999C26.3134 0.556373 26.7724 0.607254 27.0698 0.848536C27.3208 1.05227 27.3899 1.32749 27.423 1.52065C27.456 1.71381 27.4972 2.15384 27.4645 2.49766C27.091 6.42203 25.4749 15.9454 24.6527 20.3408C24.3048 22.2006 23.6197 22.8242 22.9566 22.8853C21.5153 23.0179 20.4209 21.9328 19.025 21.0177C16.8406 19.5859 15.6066 18.6945 13.4863 17.2973C11.036 15.6826 12.6244 14.7951 14.0209 13.3447C14.3863 12.9651 20.7365 7.18912 20.8594 6.66515C20.8748 6.59962 20.8891 6.35535 20.744 6.22636C20.5988 6.09738 20.3847 6.14149 20.2301 6.17656C20.011 6.22629 16.5215 8.53273 9.76156 13.0959C8.77108 13.776 7.87392 14.1074 7.07011 14.09C6.18396 14.0709 4.47937 13.589 3.21219 13.1771C1.65794 12.6719 0.422645 12.4047 0.530211 11.5467C0.586238 11.0998 1.20168 10.6427 2.37654 10.1755Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.discord.com">
+                    <svg
+                      width="29"
+                      height="28"
+                      viewBox="0 0 29 28"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        class="color-change"
+                        d="M24.4585 6.04997C22.6269 5.23854 20.6628 4.64071 18.6092 4.29831C18.5718 4.2917 18.5345 4.30822 18.5152 4.34125C18.2626 4.77502 17.9828 5.34092 17.7869 5.78572C15.5781 5.46644 13.3807 5.46644 11.2172 5.78572C11.0212 5.33104 10.7313 4.77502 10.4775 4.34125C10.4583 4.30932 10.4209 4.29281 10.3835 4.29831C8.33105 4.63962 6.36695 5.23744 4.53423 6.04997C4.51837 6.05657 4.50477 6.06759 4.49574 6.08189C0.770257 11.4558 -0.250309 16.6975 0.250347 21.8743C0.252612 21.8997 0.267337 21.9239 0.287726 21.9393C2.74569 23.6821 5.12666 24.7402 7.4634 25.4415C7.5008 25.4525 7.54043 25.4393 7.56422 25.4096C8.11698 24.6807 8.60972 23.9123 9.03219 23.1041C9.05712 23.0568 9.03332 23.0006 8.98236 22.9819C8.2008 22.6957 7.4566 22.3466 6.74073 21.9503C6.68411 21.9184 6.67958 21.8402 6.73167 21.8027C6.88231 21.6938 7.033 21.5804 7.17684 21.4659C7.20287 21.4449 7.23913 21.4405 7.26973 21.4537C11.9727 23.5269 17.0642 23.5269 21.7117 21.4537C21.7423 21.4394 21.7785 21.4439 21.8057 21.4648C21.9496 21.5793 22.1002 21.6938 22.252 21.8027C22.3041 21.8402 22.3007 21.9184 22.2441 21.9503C21.5282 22.3543 20.784 22.6957 20.0013 22.9808C19.9504 22.9995 19.9277 23.0568 19.9526 23.1041C20.3842 23.9111 20.8769 24.6796 21.4195 25.4085C21.4421 25.4393 21.4829 25.4525 21.5203 25.4415C23.8684 24.7402 26.2493 23.6821 28.7073 21.9393C28.7288 21.9239 28.7424 21.9008 28.7447 21.8754C29.3438 15.8905 27.7411 10.6917 24.4959 6.08299C24.4879 6.06759 24.4744 6.05657 24.4585 6.04997ZM9.7345 18.7222C8.31859 18.7222 7.15191 17.4671 7.15191 15.9257C7.15191 14.3844 8.29596 13.1293 9.7345 13.1293C11.1843 13.1293 12.3397 14.3954 12.317 15.9257C12.317 17.4671 11.173 18.7222 9.7345 18.7222ZM19.2832 18.7222C17.8673 18.7222 16.7006 17.4671 16.7006 15.9257C16.7006 14.3844 17.8446 13.1293 19.2832 13.1293C20.733 13.1293 21.8884 14.3954 21.8658 15.9257C21.8658 17.4671 20.733 18.7222 19.2832 18.7222Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.facebook.com"
+                    ><svg
+                      width="28"
+                      height="28"
+                      viewBox="0 0 28 28"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        class="color-change"
+                        d="M20.0826 15.5495L20.8082 10.7718H16.2694V7.67277C16.2694 6.36536 16.9023 5.09024 18.9352 5.09024H21V1.02277C21 1.02277 19.1269 0.699951 17.337 0.699951C13.5973 0.699951 11.1553 2.98871 11.1553 7.13044V10.7718H7V15.5495H11.1553V27.0998C11.9895 27.2322 12.8429 27.3 13.7123 27.3C14.5817 27.3 15.4352 27.2322 16.2694 27.0998V15.5495H20.0826Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.instagram.com">
+                    <svg
+                      width="28"
+                      height="28"
+                      viewBox="0 0 28 28"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clip-path="url(#clip0_1_2064)">
+                        <path
+                          class="color-change"
+                          d="M14 2.52322C17.7404 2.52322 18.1794 2.5399 19.6578 2.60659C21.025 2.66773 21.7642 2.89559 22.2588 3.09011C22.9147 3.34577 23.3815 3.64589 23.8706 4.13497C24.3597 4.62406 24.6654 5.09091 24.9155 5.74673C25.1044 6.24137 25.3379 6.98055 25.399 8.34776C25.4657 9.82612 25.4824 10.2652 25.4824 14.0056C25.4824 17.7459 25.4657 18.185 25.399 19.6634C25.3379 21.0306 25.11 21.7698 24.9155 22.2644C24.6598 22.9202 24.3597 23.3871 23.8706 23.8761C23.3815 24.3652 22.9147 24.6709 22.2588 24.921C21.7642 25.11 21.025 25.3434 19.6578 25.4045C18.1794 25.4712 17.7404 25.4879 14 25.4879C10.2596 25.4879 9.82057 25.4712 8.34221 25.4045C6.975 25.3434 6.23581 25.1155 5.74117 24.921C5.08536 24.6653 4.6185 24.3652 4.12942 23.8761C3.64034 23.3871 3.33466 22.9202 3.08456 22.2644C2.8956 21.7698 2.66217 21.0306 2.60103 19.6634C2.53434 18.185 2.51767 17.7459 2.51767 14.0056C2.51767 10.2652 2.53434 9.82612 2.60103 8.34776C2.66217 6.98055 2.89004 6.24137 3.08456 5.74673C3.34022 5.09091 3.64034 4.62406 4.12942 4.13497C4.6185 3.64589 5.08536 3.34021 5.74117 3.09011C6.23581 2.90115 6.975 2.66773 8.34221 2.60659C9.82057 2.53434 10.2652 2.52322 14 2.52322ZM14 0C10.1985 0 9.72053 0.0166733 8.22549 0.0833664C6.73601 0.15006 5.71894 0.389043 4.8297 0.733624C3.90711 1.08932 3.12902 1.57285 2.35093 2.35093C1.57285 3.12902 1.09488 3.91266 0.733625 4.82969C0.389044 5.71894 0.15006 6.73601 0.0833665 8.23104C0.0166733 9.72052 0 10.1985 0 14C0 17.8015 0.0166733 18.2795 0.0833665 19.7745C0.15006 21.264 0.389044 22.2811 0.733625 23.1759C1.08932 24.0985 1.57285 24.8765 2.35093 25.6546C3.12902 26.4327 3.91267 26.9107 4.8297 27.2719C5.71894 27.6165 6.73601 27.8555 8.23105 27.9222C9.72609 27.9889 10.1985 28.0056 14.0056 28.0056C17.8126 28.0056 18.285 27.9889 19.7801 27.9222C21.2696 27.8555 22.2866 27.6165 23.1814 27.2719C24.104 26.9162 24.8821 26.4327 25.6602 25.6546C26.4383 24.8765 26.9163 24.0929 27.2775 23.1759C27.6221 22.2866 27.8611 21.2696 27.9278 19.7745C27.9945 18.2795 28.0111 17.8071 28.0111 14C28.0111 10.1929 27.9945 9.72052 27.9278 8.22549C27.8611 6.73601 27.6221 5.71894 27.2775 4.82414C26.9218 3.90155 26.4383 3.12346 25.6602 2.34538C24.8821 1.56729 24.0985 1.08932 23.1814 0.728067C22.2922 0.383486 21.2751 0.144502 19.7801 0.0778087C18.2795 0.0166733 17.8015 0 14 0Z"
+                          fill="white"
+                        />
+                        <path
+                          d="M14 2.52322C17.7404 2.52322 18.1794 2.5399 19.6578 2.60659C21.025 2.66773 21.7642 2.89559 22.2588 3.09011C22.9147 3.34577 23.3815 3.64589 23.8706 4.13497C24.3597 4.62406 24.6654 5.09091 24.9155 5.74673C25.1044 6.24137 25.3379 6.98055 25.399 8.34776C25.4657 9.82612 25.4824 10.2652 25.4824 14.0056C25.4824 17.7459 25.4657 18.185 25.399 19.6634C25.3379 21.0306 25.11 21.7698 24.9155 22.2644C24.6598 22.9202 24.3597 23.3871 23.8706 23.8761C23.3815 24.3652 22.9147 24.6709 22.2588 24.921C21.7642 25.11 21.025 25.3434 19.6578 25.4045C18.1794 25.4712 17.7404 25.4879 14 25.4879C10.2596 25.4879 9.82057 25.4712 8.34221 25.4045C6.975 25.3434 6.23581 25.1155 5.74117 24.921C5.08536 24.6653 4.6185 24.3652 4.12942 23.8761C3.64034 23.3871 3.33466 22.9202 3.08456 22.2644C2.8956 21.7698 2.66217 21.0306 2.60103 19.6634C2.53434 18.185 2.51767 17.7459 2.51767 14.0056C2.51767 10.2652 2.53434 9.82612 2.60103 8.34776C2.66217 6.98055 2.89004 6.24137 3.08456 5.74673C3.34022 5.09091 3.64034 4.62406 4.12942 4.13497C4.6185 3.64589 5.08536 3.34021 5.74117 3.09011C6.23581 2.90115 6.975 2.66773 8.34221 2.60659C9.82057 2.53434 10.2652 2.52322 14 2.52322Z"
+                          fill="transparent"
+                        />
+                        <path
+                          class="color-change"
+                          d="M14.0001 6.81384C10.0319 6.81384 6.80835 10.0318 6.80835 14.0056C6.80835 17.9794 10.0263 21.1973 14.0001 21.1973C17.9739 21.1973 21.1918 17.9794 21.1918 14.0056C21.1918 10.0318 17.9739 6.81384 14.0001 6.81384ZM14.0001 18.6685C11.4213 18.6685 9.33157 16.5788 9.33157 14C9.33157 11.4212 11.4213 9.33151 14.0001 9.33151C16.5789 9.33151 18.6686 11.4212 18.6686 14C18.6686 16.5788 16.5789 18.6685 14.0001 18.6685Z"
+                          fill="white"
+                        />
+                        <path
+                          class="color-change"
+                          d="M21.4751 8.2032C22.4021 8.2032 23.1535 7.45174 23.1535 6.52476C23.1535 5.59778 22.4021 4.84631 21.4751 4.84631C20.5481 4.84631 19.7966 5.59778 19.7966 6.52476C19.7966 7.45174 20.5481 8.2032 21.4751 8.2032Z"
+                          fill="white"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_1_2064">
+                          <rect width="28" height="28" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.twitter.com">
+                    <svg
+                      width="30"
+                      height="30"
+                      viewBox="0 0 30 30"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        class="color-change"
+                        d="M26.3213 8.97594C26.3329 9.23994 26.3329 9.49194 26.3329 9.75594C26.3444 17.76 20.4639 27 9.70979 27C6.53798 27 3.42405 26.052 0.75 24.276C1.21304 24.336 1.67608 24.36 2.13911 24.36C4.76686 24.36 7.32514 23.448 9.39724 21.756C6.89683 21.708 4.6974 20.016 3.93339 17.544C4.81316 17.724 5.71608 17.688 6.5727 17.436C3.85236 16.884 1.89602 14.4 1.88444 11.508C1.88444 11.484 1.88444 11.46 1.88444 11.436C2.69476 11.904 3.60926 12.168 4.53534 12.192C1.97705 10.4159 1.17831 6.87594 2.72949 4.10393C5.70451 7.89594 10.0802 10.1879 14.7801 10.4399C14.3054 8.33994 14.9537 6.13193 16.4701 4.64393C18.8201 2.35192 22.5244 2.47192 24.747 4.90793C26.055 4.64393 27.3168 4.13993 28.4628 3.43192C28.0229 4.83593 27.1084 6.02393 25.893 6.77994C27.0506 6.63593 28.185 6.31193 29.25 5.83193C28.4628 7.05594 27.4673 8.11194 26.3213 8.97594Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <form
+              method="get"
+              action="#"
+              class="col-12 d-flex flex-column footer__form"
+            >
+              <label for="signup">عضو خبرنامه ما شوید</label>
+              <div class="d-flex input-container">
+                <input type="email" placeholder="info@gmail.com" id="signup" />
+                <button
+                  type="submit"
+                  class="d-flex align-items-center justify-content-center"
+                >
+                  <img src="assets/img/arrow.svg" alt="" />
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid container-xxl copyright">
+        <div class="row">
+          <div
+            class="col-12 col-md-6 order-1 order-md-2 d-flex d-lg-none align-items-center justify-content-center justify-content-md-end footer__socials"
+          >
+            <a href="https://www.twoo.com">
+              <svg
+                width="29"
+                height="28"
+                viewBox="0 0 29 28"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_1_2841)">
+                  <path
+                    d="M12.1309 19.4001C12.2043 19.3381 12.2788 19.2739 12.3476 19.2063C8.51674 22.9649 2.26987 21.2106 0.80562 15.9097V15.9017C-1.15856 8.68934 7.12358 3.21072 12.3454 8.25592C12.4543 8.37173 19.6678 16.0645 19.2091 15.5749H19.2297C20.3064 16.6848 21.8636 16.5633 22.79 15.5932C23.7865 14.5521 23.822 12.8528 22.8439 11.7944C21.2994 10.016 18.2666 11.345 18.5567 13.9811L16.8207 12.213L14.8072 10.2878C15.2223 9.46332 15.7669 8.74209 16.4492 8.11832C16.3758 8.18139 16.3012 8.24674 16.2324 8.3121C20.0783 4.53967 26.3205 6.3353 27.7745 11.6133V11.6201C29.7432 18.8313 21.4519 24.3099 16.2347 19.2648C16.1281 19.1501 8.91921 11.4092 9.37557 11.8999L9.37098 11.8827C9.35264 11.8827 9.35264 11.8655 9.35264 11.8655C8.22205 10.6994 6.689 10.8748 5.79234 11.83C4.79476 12.8711 4.76036 14.5704 5.74074 15.6127C7.2176 17.3499 10.3158 16.0622 10.0246 13.3733C10.1369 13.4892 14.0252 17.4806 13.7775 17.2272C13.148 18.4828 12.444 19.0595 12.1309 19.4001V19.4001Z"
+                    fill="white"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_1_2841">
+                    <rect
+                      width="27.5192"
+                      height="27.5192"
+                      fill="white"
+                      transform="translate(0.530762)"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+            <a href="https://www.twitter.com">
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M26.3213 8.97594C26.3329 9.23994 26.3329 9.49194 26.3329 9.75594C26.3444 17.76 20.4639 27 9.70979 27C6.53798 27 3.42405 26.052 0.75 24.276C1.21304 24.336 1.67608 24.36 2.13911 24.36C4.76686 24.36 7.32514 23.448 9.39724 21.756C6.89683 21.708 4.6974 20.016 3.93339 17.544C4.81316 17.724 5.71608 17.688 6.5727 17.436C3.85236 16.884 1.89602 14.4 1.88444 11.508C1.88444 11.484 1.88444 11.46 1.88444 11.436C2.69476 11.904 3.60926 12.168 4.53534 12.192C1.97705 10.4159 1.17831 6.87594 2.72949 4.10393C5.70451 7.89594 10.0802 10.1879 14.7801 10.4399C14.3054 8.33994 14.9537 6.13193 16.4701 4.64393C18.8201 2.35192 22.5244 2.47192 24.747 4.90793C26.055 4.64393 27.3168 4.13993 28.4628 3.43192C28.0229 4.83593 27.1084 6.02393 25.893 6.77994C27.0506 6.63593 28.185 6.31193 29.25 5.83193C28.4628 7.05594 27.4673 8.11194 26.3213 8.97594Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+            <a href="https://www.messenger.com">
+              <svg
+                width="29"
+                height="28"
+                viewBox="0 0 29 28"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_1_2833)">
+                  <path
+                    d="M0.49707 12.7403C0.49707 16.7489 2.4968 20.3252 5.62367 22.6609V27.5192L10.3088 24.9485C11.5587 25.2936 12.883 25.4817 14.2555 25.4817C21.8543 25.4817 28.0152 19.7783 28.0152 12.7414C28.0163 5.70451 21.8554 0 14.2567 0C6.65794 0 0.49707 5.70336 0.49707 12.7403H0.49707ZM12.805 9.17193L16.394 12.9088L23.1443 9.17193L15.6223 17.1548L12.1194 13.4191L5.28198 17.1559L12.805 9.17193Z"
+                    fill="white"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_1_2833">
+                    <rect
+                      width="27.5192"
+                      height="27.5192"
+                      fill="white"
+                      transform="translate(0.49707)"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com">
+              <svg
+                width="29"
+                height="28"
+                viewBox="0 0 29 28"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_1_2835)">
+                  <path
+                    d="M28.4929 27.5191V27.518H28.4998V17.4253C28.4998 12.4879 27.4369 8.68451 21.6647 8.68451C18.8899 8.68451 17.0277 10.2072 16.2675 11.6509H16.1872V9.14546H10.7144V27.518H16.4131V18.4206C16.4131 16.0253 16.8672 13.7091 19.8335 13.7091C22.7563 13.7091 22.7999 16.4426 22.7999 18.5742V27.5191H28.4929Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M1.43457 9.14697H7.14023V27.5195H1.43457V9.14697Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M4.28507 0C2.46077 0 0.980469 1.48031 0.980469 3.3046C0.980469 5.1289 2.46077 6.64016 4.28507 6.64016C6.10937 6.64016 7.58967 5.1289 7.58967 3.3046C7.58852 1.48031 6.10822 0 4.28507 0V0Z"
+                    fill="white"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_1_2835">
+                    <rect
+                      width="27.5192"
+                      height="27.5192"
+                      fill="white"
+                      transform="translate(0.980469)"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+          </div>
+
+          <p
+            class="col-12 col-md-6 order-2 order-md-1 text-center text-md-start"
+          >
+            کلیه حقوق این سایت نزد
+            <strong class="highlight--primary">سیپا</strong> محفوظ بوده و بازنشر
+            محتوا با ذکر منبع بلا مانع است
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
